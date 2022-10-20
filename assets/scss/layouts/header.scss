@@ -6,11 +6,229 @@
         background: rgba(245, 245, 245, 0.5);
         width: 100%;
         display: flex;
-
         justify-content: center;
+
         .container {
-            max-width: 1287px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 1315px;
             width: 100%;
+
+            .socials {
+                display: flex;
+                align-items: center;
+                gap: 19px;
+                height: 100%;
+                margin-right: 167px;
+            }
+
+            .title {
+                color: $dark-green;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 17px;
+                letter-spacing: 0.64px;
+            }
+
+            .signing-block {
+                display: flex;
+                font-family: 'Raleway';
+                font-weight: 500;
+                font-size: 13px;
+                line-height: 15px;
+                letter-spacing: 0.02em;
+
+                .lang {
+                    a {
+                        display: flex;
+                        color: black;
+
+                        div {
+                            margin-right: 6px;
+                        }
+                    }
+                }
+
+                .registration {
+                    margin-right: 49px;
+                    position: relative;
+
+                    a {
+                        color: black;
+                    }
+
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        top: 16px;
+                        left: 0px;
+                        height: 2px;
+                        width: 100%;
+                        background-color: $light-green;
+                    }
+                }
+
+                .login {
+                    display: flex;
+                    margin-right: 27px;
+                    position: relative;
+
+                    a {
+                        color: black;
+                    }
+
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        top: 2px;
+                        left: -16px;
+                        width: 11px;
+                        height: 11px;
+                        background-image: url('../../images/layouts/header/man-user.svg');
+                    }
+                }
+            }
+        }
+    }
+
+    &__center {
+        display: flex;
+        justify-content: center;
+        height: 85px;
+        width: 100%;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 1315px;
+            width: 100%;
+
+            .logo {
+                margin-top: 5px;
+                display: flex;
+                align-items: center;
+
+                h2 {
+                    margin-left: 9px;
+                    font-family: 'Raleway', sans-serif;
+                    font-weight: 800;
+                    font-size: 15px;
+                    line-height: 18px;
+                    letter-spacing: 0.02em;
+                    color: $dark-blue;
+                }
+            }
+
+            .contacts {
+                display: flex;
+            }
+
+            .bag {
+                display: flex;
+                align-items: center;
+            }
+
+            .ring {
+                display: flex;
+                align-items: center;
+                margin-right: 27px;
+
+                p {
+                    width: 178px;
+                    font-family: 'Montserrat';
+                    font-weight: 500;
+                    font-size: 12px;
+                    line-height: 15px;
+                    letter-spacing: 0.02em;
+                    color: $grey;
+                }
+
+                a {
+                    margin-right: 16px;
+                    text-align: center;
+                    display: block;
+                    font-family: 'Raleway', sans-serif;
+                    font-weight: 600;
+                    font-size: 13px;
+                    line-height: 15px;
+                    line-height: 42px;
+                    letter-spacing: 0.02em;
+                    color: #FFFFFF;
+                    background: #337D5A;
+                    width: 148px;
+                    height: 42px;
+                    letter-spacing: -0.2px;
+                }
+            }
+
+            .phones {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin-right: 93px;
+
+                a {
+                    margin-bottom: 2px;
+                    font-family: 'Montserrat';
+                    font-weight: 500;
+                    font-size: 13px;
+                    line-height: 16px;
+                    color: #000000;
+
+                    span {
+                        color: $dark-green;
+                    }
+                }
+            }
+
+            .socials {
+                margin-top: 2px;
+                display: flex;
+                gap: 10px;
+                margin-right: 33px;
+            }
+        }
+    }
+
+    nav {
+        ul {
+            height: 56px;
+            padding-top: 7px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            max-width: 1138px;
+            width: 100%;
+            justify-content: space-between;
+
+            li {
+                font-family: 'Raleway';
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 18px;
+                letter-spacing: 0.02em;
+                color: $dark-blue;
+            }
+
+            .active {
+                color: $dark-green;
+                position: relative;
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    width: 78px;
+                    height: 3px;
+                    background-color: $dark-green;
+                    top: 30px;
+                    left: -7px;
+                }
+            }
         }
     }
 }
