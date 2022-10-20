@@ -1,0 +1,16 @@
+.header {
+
+    &__top {
+        width: 100%;
+        height: 38px;
+        background: rgba(245, 245, 245, 0.5);
+        width: 100%;
+        display: flex;
+
+        justify-content: center;
+        .container {
+            max-width: 1287px;
+            width: 100%;
+        }
+    }
+}
