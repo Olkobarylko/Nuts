@@ -320,7 +320,7 @@
 
         .more {
             display: block;
-            margin: 0 auto ;
+            margin: 0 auto 90px;
             width: 200px;
             height: 52px;
             border: 1.5px solid #337D5A;
@@ -332,6 +332,117 @@
             color: #337D5A;
             text-align: center;
             line-height: 50px;
+        }
+    }
+
+    .about-section {
+        width: 100%;
+        height: 662px;
+        background: #FBFBFB;
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            max-width: 1288px;
+            width: 100%;
+            margin: 0 auto;
+            padding: 100px 0 0px;
+
+            .info {
+                margin-top: 27px;
+
+                h2 {
+                    font-family: 'Raleway';
+                    font-weight: 800;
+                    font-size: 45px;
+                    line-height: 53px;
+                    letter-spacing: 0.016em;
+                    color: #1A2F3F;
+                }
+
+                p {
+                    margin-top: 41px;
+                    font-family: 'Raleway';
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 26px;
+                    letter-spacing: 0px;
+                    color: $dark-blue;
+
+                    span {
+                        letter-spacing: 0.006em;
+                        color: $dark-green
+                    }
+                }
+
+                p:nth-child(2) {
+                    margin-top: 41px;
+                }
+
+                p:nth-child(3) {
+                    margin-top: 25px;
+                }
+
+                a {
+                    margin-top: 45px;
+                    display: block;
+                    width: 169px;
+                    height: 52px;
+                    border: 1.5px solid $dark-green;
+                    font-family: 'Raleway';
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 49px;
+                    letter-spacing: 0.02em;
+                    color: $dark-green;
+                    text-align: center;
+                }
+            }
+
+            .slider {
+
+                width: 700px;
+                position: relative;
+
+                .about-swiper {
+                    position: relative;
+                    .nav-block {
+                        position: absolute;
+                        width: 141px;
+                        height: 58px;
+                        background: $dark-green;
+                        bottom: 3px;
+                        z-index: 1;
+                    }
+
+                    .swiper-slide {
+                        position: relative;
+                    }
+
+                    .swiper-button-prev::after {
+                        z-index: 1001;
+                        content: "";
+                        position: absolute;
+                        width: 34px;
+                        height: 34px;
+                        bottom: -202px;
+                        left: 11px;
+                        background-image: url('../../images/pages/home/white-arrow.svg');
+                        transform: rotate(180deg);
+                    }
+
+                    .swiper-button-next::after {
+                        z-index: 1001;
+                        content: "";
+                        position: absolute;
+                        width: 34px;
+                        height: 34px;
+                        bottom: -200px;
+                        right: 568px;
+                        background-image: url('../../images/pages/home/white-arrow.svg');
+                    }
+                }
+            }
         }
     }
 }

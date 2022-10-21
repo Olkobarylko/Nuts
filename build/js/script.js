@@ -21,4 +21,11 @@ var swiper = new Swiper(".product-swiper", {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
-  });
+});
+
+var swiper = new Swiper(".about-swiper", {
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+});
