@@ -18,14 +18,24 @@ testWebP(function (support) {
 
 var swiper = new Swiper(".product-swiper", {
     navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
     },
 });
 
-var swiper = new Swiper(".about-swiper", {
+var swiper1 = new Swiper(".about-swiper", {
     navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+});
+
+var swiper2 = new Swiper(".news-swiper", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    loop: true,
+    navigation: {
+        nextEl: ".swiper-button-next-news",
+        prevEl: ".swiper-button-prev-news",
     },
 });

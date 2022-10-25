@@ -406,6 +406,7 @@
 
                 .about-swiper {
                     position: relative;
+
                     .nav-block {
                         position: absolute;
                         width: 141px;
@@ -442,6 +443,453 @@
                         background-image: url('../../images/pages/home/white-arrow.svg');
                     }
                 }
+            }
+        }
+    }
+
+    .statistics-section {
+        margin: 0 auto;
+        max-width: 1130px;
+        width: 100%;
+        height: 222px;
+
+        .wrapper {
+            margin-top: 70px;
+            display: flex;
+
+            .block {
+                .number {
+                    text-align: center;
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 72px;
+                    line-height: 88px;
+                    letter-spacing: 0.01em;
+                    color: $dark-blue;
+                    position: relative;
+
+                    span {
+                        position: absolute;
+                        top: 15px;
+                        right: -27px;
+                        font-family: "Raleway";
+                        font-style: normal;
+                        font-weight: 800;
+                        font-size: 18px;
+                        line-height: 21px;
+                        letter-spacing: 3px;
+                    }
+                }
+
+                p {
+                    margin-top: 5px;
+                    text-align: center;
+                    font-family: 'Raleway';
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 21px;
+                    letter-spacing: 0.02em;
+                    color: $dark-blue;
+                }
+            }
+
+            .block:nth-child(1) {}
+
+            .block:nth-child(2) {
+                margin-left: 204px;
+
+                .number {
+                    span {
+                        right: 11px;
+                    }
+                }
+            }
+
+            .block:nth-child(3) {
+                margin-left: 128px;
+
+                .number {
+                    span {
+                        right: 86px;
+                    }
+                }
+            }
+
+            .block:nth-child(4) {
+                margin-left: 102px;
+
+                .number {
+                    span {
+                        right: 86px;
+                    }
+                }
+            }
+        }
+    }
+
+    .aim-section {
+        width: 100%;
+        height: 740px;
+        background-image: url("../../images/pages/home/aim-bg.svg");
+        text-align: center;
+        padding-top: 242px;
+        padding-right: 14px;
+
+        h2 {
+            font-family: 'Raleway';
+            font-weight: 800;
+            font-size: 45px;
+            line-height: 53px;
+            letter-spacing: 0.02em;
+            color: #FFFFFF;
+        }
+
+        .play {
+            margin: 70px auto 28px;
+            width: 61px;
+            height: 61px;
+            border-radius: 50%;
+            border: 2px solid white;
+            padding: 20px 0px 0px 3px;
+        }
+
+        p {
+            font-family: 'Raleway';
+            font-style: italic;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 28px;
+            letter-spacing: 0.046em;
+            color: #FFFFFF;
+        }
+    }
+
+    .benefit-section {
+        padding-top: 82px;
+
+        h2 {
+            text-align: center;
+            font-family: 'Raleway';
+            font-weight: 800;
+            font-size: 45px;
+            line-height: 53px;
+            letter-spacing: 0.02em;
+            color: $dark-blue;
+        }
+
+        p {
+            margin-top: 30px;
+            text-align: center;
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 27px;
+            text-align: center;
+            letter-spacing: 0.01em;
+            color: $dark-blue;
+        }
+
+        .wrapper {
+            margin-top: 63px;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+
+            .block {
+                cursor: pointer;
+                width: 410px;
+                height: 525px;
+                background: url('../../images/pages/home/banefit-bg-1.svg');
+                position: relative;
+                transition: 0.5s all ease-in-out;
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    left: 0px;
+                    top: 0px;
+                    width: 100%;
+                    height: 100%;
+                    transition: 0.5s all ease-in-out;
+                }
+
+                &:hover::before {
+                    background: rgba(51, 125, 90, 0.95);
+                }
+
+                &:hover .container {
+                    position: absolute;
+                    justify-content: flex-start;
+                    padding-top: 97px;
+
+                    h3 {
+                        margin-top: 5px;
+                    }
+
+                    p {
+                        opacity: 1;
+                        height: auto;
+                    }
+                }
+
+                .container {
+                    padding-top: 45px;
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    height: 100%;
+                    transition: 0.5s all ease-in-out;
+
+
+                    h3 {
+                        margin-top: 17px;
+                        font-family: 'Raleway';
+                        font-weight: 800;
+                        font-size: 40px;
+                        line-height: 47px;
+                        letter-spacing: 0.02em;
+                        color: #FFFFFF;
+                    }
+
+                    p {
+                        height: 0px;
+                        opacity: 0;
+                        margin-top: 22px;
+                        padding: 0px 30px;
+                        font-family: 'Raleway';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 18px;
+                        line-height: 23px;
+                        text-align: center;
+                        letter-spacing: 0.02em;
+                        color: #FFFFFF;
+                    }
+
+                    p:nth-child(2) {
+                        margin-top: 17px;
+                    }
+
+                    img {
+                        margin-left: 10px;
+                    }
+                }
+            }
+
+            .block:nth-child(2) {
+                background-image: url('../../images/pages/home/banefit-bg-2.svg');
+
+                img {
+                    margin-left: 6px;
+                }
+
+            }
+
+            .block:nth-child(3) {
+                background-image: url('../../images/pages/home/banefit-bg-3.svg');
+
+                img {
+                    margin-left: -19px;
+                }
+            }
+        }
+    }
+
+    .eco-section {
+        margin-top: 100px;
+        height: 740px;
+        width: 100%;
+        background-image: url("../../images/pages/home/eco-prod-bg.svg");
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 224px 0px 0px;
+
+        h2 {
+            margin-top: 43px;
+            margin-left: -20px;
+            font-family: 'Raleway';
+            font-weight: 800;
+            font-size: 45px;
+            line-height: 53px;
+            letter-spacing: 0.02em;
+            color: #FFFFFF;
+        }
+
+        p {
+            margin-top: 20px;
+            margin-left: 9px;
+            font-family: "Raleway";
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 31px;
+            text-align: center;
+            letter-spacing: 0.2px;
+            color: #fff;
+        }
+    }
+
+    .news-section {
+        background: rgba(249, 249, 249, 0.7);
+        padding: 83px 0px 90px;
+
+        .container {
+
+            .title {
+                display: flex;
+                justify-content: space-between;
+
+                .text {
+                    h2 {
+                        font-family: 'Raleway';
+                        font-weight: 800;
+                        font-size: 45px;
+                        line-height: 53px;
+                        letter-spacing: 0.02em;
+                        color: $dark-blue;
+                    }
+
+                    p {
+                        margin-top: 34px;
+                        font-family: "Raleway";
+                        font-weight: 500;
+                        font-size: 18px;
+                        line-height: 22px;
+                        letter-spacing: .01em;
+                        margin-left: 2px;
+                        color: $dark-blue;
+                    }
+                }
+
+                .move {
+                    position: relative;
+                    margin: 31px 5px 0px 0px;
+                    width: 141px;
+                    height: 58px;
+                    background-color: $dark-green;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 0px 21px;
+
+                    .swiper-button-news-next,
+                    .swiper-button-news-prev {
+                        width: 34px;
+                        height: 34px;
+                        background-image: url("../../images/pages/home/white-arrow.svg");
+                    }
+                    .swiper-button-news-prev{
+                        margin-top: 3px;
+                        transform: rotate(180deg);
+                    }
+                }
+            }
+
+            .slider {
+                margin-top: 64px;
+                padding: 0px 5px;
+
+                .news-swiper {
+                    .swiper-slide {
+                        width: 410px;
+                        height: 532px;
+                        background: #FFFFFF;
+                        cursor: pointer;
+
+                        .info {
+                            padding: 19px 22px 19px;
+
+                            img {
+                                width: 100%;
+                                object-fit: cover;
+                            }
+
+                            span {
+                                font-family: 'Montserrat';
+                                font-weight: 500;
+                                font-size: 13px;
+                                line-height: 22px;
+                                letter-spacing: 0.01em;
+                                color: $grey;
+                            }
+
+                            h3 {
+                                margin-top: 9px;
+                                font-family: "Raleway";
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 16px;
+                                line-height: 24px;
+                                letter-spacing: 0.01em;
+                                color: $dark-blue;
+                            }
+
+                            p {
+                                margin-top: 10px;
+                                font-family: 'Raleway';
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 14px;
+                                line-height: 20px;
+                                letter-spacing: 0.01em;
+                                color: $dark-blue;
+                            }
+
+                            a {
+                                margin-top: 21px;
+                                display: block;
+                                font-family: 'Raleway';
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 14px;
+                                line-height: 20px;
+                                letter-spacing: 0.01em;
+                                color: $dark-blue;
+                                position: relative;
+                                transition: all 0.25s ease-in-out;
+
+                                &:hover {
+                                    color: $dark-green;
+                                }
+
+                                &::after {
+                                    content: "";
+                                    position: absolute;
+                                    width: 18px;
+                                    height: 9px;
+                                    top: 6px;
+                                    left: 56px;
+                                    background-image: url('../../images/pages/home/news-arrow-black.svg');
+                                    transition: all 0.25s ease-in-out;
+                                }
+
+                                &:hover::after {
+                                    background-image: url('../../images/pages/home/news-arrow-green.svg');
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .more-news {
+                margin: 70px auto 0px;
+                padding-left: 3px;
+                text-align: center;
+                display: block;
+                width: 225px;
+                height: 51px;
+                border: 1.5px solid $dark-green;
+                font-family: 'Raleway';
+                font-weight: 700;
+                font-size: 15px;
+                line-height: 47px;
+                letter-spacing: 0.02em;
+                color: $dark-green;
             }
         }
     }
