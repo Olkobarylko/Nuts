@@ -39,8 +39,36 @@ var swiper1 = new Swiper(".about-swiper", {
 });
 
 var swiper2 = new Swiper(".news-swiper", {
-    slidesPerView: 3,
-    spaceBetween: 30,
+    breakpoints: {
+        320: {
+            slidesPerView: 1,
+            spaceBetween: 10
+        },
+        390: {
+            slidesPerView: 1.1,
+            spaceBetween: 10
+        },
+        450: {
+            slidesPerView: 1.5,
+            spaceBetween: 30
+        },
+        550: {
+            slidesPerView: 1.5,
+            spaceBetween: 30
+        },
+        768: {
+            slidesPerView: 2,
+            spaceBetween: 30
+        },
+        991: {
+            slidesPerView: 2.5,
+            spaceBetween: 30
+        },
+        1200: {
+            slidesPerView: 3,
+            spaceBetween: 30
+        },
+    },
     loop: true,
     navigation: {
         nextEl: ".swiper-button-next-news",
