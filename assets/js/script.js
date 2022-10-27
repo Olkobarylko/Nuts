@@ -16,6 +16,14 @@ testWebP(function (support) {
     }
 });
 
+const menu_button = document.querySelector('.mobile-bar');
+const modal_menu = document.querySelector('.modal-menu');
+
+function openModal() {
+    menu_button.classList.toggle('cross-menu');
+    modal_menu.classList.toggle('modal-active');
+}
+
 var swiper = new Swiper(".product-swiper", {
     navigation: {
         nextEl: ".swiper-button-next",

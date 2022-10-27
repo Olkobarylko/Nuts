@@ -1,0 +1,248 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .contacts {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1296px;
+        width: 100%;
+        padding: 112px 0px 0px;
+
+        .info {
+            h2 {
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 800;
+                font-size: 45px;
+                line-height: 53px;
+                letter-spacing: 0.02em;
+                color: $dark-blue;
+            }
+
+            .links {
+                margin-top: 70px;
+                display: flex;
+                align-items: center;
+
+                .phones {
+                    padding-left: 33px;
+                    position: relative;
+
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        left: 3px;
+                        top: 15px;
+                        width: 14px;
+                        height: 14px;
+                        background-image: url('../../images/layouts/footer/telephone-footer.svg');
+                    }
+
+                    a {
+                        font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 24px;
+                        letter-spacing: 0.01em;
+                        color: $dark-blue;
+                    }
+                }
+
+                .socials {
+                    margin-top: 1px;
+                    display: flex;
+                    gap: 10px;
+                    margin-left: 47px;
+                }
+            }
+
+            .email {
+                margin-top: 41px;
+                padding-left: 33px;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 21px;
+                letter-spacing: 0.01em;
+                color: $dark-blue;
+                position: relative;
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    left: 3px;
+                    top: 3px;
+                    width: 15px;
+                    height: 15px;
+                    background-image: url('../../images/layouts/footer/email-img.svg');
+                }
+            }
+
+            .address-top,
+            .address-bottom {
+                padding-left: 33px;
+                margin-top: 46px;
+                position: relative;
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    left: 3px;
+                    top: 0px;
+                    width: 16px;
+                    height: 16px;
+                    background-image: url('../../images/layouts/footer/house-img.svg');
+                }
+
+                h3 {
+                    font-family: 'Raleway';
+                    font-weight: 800;
+                    font-size: 17px;
+                    line-height: 20px;
+                    letter-spacing: 0.017em;
+                    color: $dark-blue;
+                }
+
+                p {
+                    margin-top: 17px;
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 21px;
+                    letter-spacing: 0.01em;
+                    color: $dark-blue;
+                }
+            }
+
+            .address-bottom {
+                margin-top: 37px;
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    left: 3px;
+                    top: 0px;
+                    width: 16px;
+                    height: 19px;
+                    background-image: url('../../images/layouts/footer/tree-img.svg');
+                }
+            }
+        }
+
+        .map {
+            margin-top: -11px;
+            margin-right: 3px;
+            width: 739px;
+            height: 518px;
+            background-image: url("../../images/layouts/footer/map.svg");
+        }
+    }
+
+    .footer-bottom {
+        width: 100%;
+
+        .top {
+            margin: 80px auto 0px;
+            display: flex;
+            justify-content: space-between;
+            max-width: 1296px;
+            width: 100%;
+            padding: 0px 2px;
+
+            .logo {
+                display: flex;
+                align-items: center;
+
+                h2 {
+                    margin-left: 8px;
+                    font-family: 'Raleway';
+                    font-weight: 800;
+                    font-size: 15px;
+                    line-height: 18px;
+                    letter-spacing: 0.02em;
+                    color: $dark-blue;
+                }
+            }
+
+            .navigation {
+                margin-top: 30px;
+
+                nav {
+                    ul {
+                        display: flex;
+                        gap: 60px;
+
+                        li {
+                            font-family: 'Raleway';
+                            font-weight: 600;
+                            font-size: 15px;
+                            line-height: 18px;
+                            letter-spacing: 0.01em;
+                            color: $dark-blue;
+                        }
+
+                        .active {
+                            color: $dark-green;
+                        }
+                    }
+                }
+            }
+        }
+
+        .line {
+            margin-top: 23px;
+            width: 100%;
+            height: 1px;
+            background-color: rgba(0, 0, 0, 0.08);
+        }
+
+        .bottom {
+            margin: 29px auto 39px;
+            display: flex;
+            justify-content: space-between;
+            max-width: 1296px;
+            width: 100%;
+            padding: 0px 2px;
+
+            h3 {
+                font-family: 'Montserrat';
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 15px;
+                color: $dark-blue;
+
+                span {
+                    color: $dark-green;
+                    margin-left: -1px;
+
+                    i {
+                        font-style: normal;
+                        font-weight: 600;
+                    }
+                }
+            }
+
+            p {
+                font-family: 'Montserrat';
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 15px;
+                color: $dark-blue;
+                letter-spacing: -0.08px;
+            }
+
+            .socials{
+                margin-top: -2px;
+                margin-left: 91px;
+                gap: 20px;
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+}
