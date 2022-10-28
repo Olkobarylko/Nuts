@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.min.css">
+    <title>Nuts</title>
+</head>
+
+<body>
+    @@include('layouts/header/_header.html')
+    <main class="catalog-main">
+        <section class="front-section">
+            <div class="container">
+                <div class="navigation">
+                    <p>Главная</p>
+                    <div class="arrow">
+                        <img src="images/pages/catalog/white-arrow-front.svg" alt="">
+                    </div>
+                    <p>Магазин</p>
+                </div>
+                <h1>Каталог продукции</h1>
+            </div>
+        </section>
+        <section class="production-section">
+            <div class="filter-block">
+                <div class="filter">
+                    <h2>Фильтр</h2>
+                    <img src="images/pages/catalog/settings.svg" alt="">
+                </div>
+                <div class="select">
+                    <select>
+                        <option value="1">Вкус </option>
+                        <option value="2">Вкус </option>
+                        <option value="3">Вкус </option>
+                    </select>
+                </div>
+                <div class="select second-select">
+                    <select>
+                        <option value="1">Масса </option>
+                        <option value="2">Масса </option>
+                        <option value="3">Масса </option>
+                    </select>
+                </div>
+                <div class="price">
+                    <p>Стоимость</p>
+                    <div>
+                        <img src="images/pages/catalog/price-arrow.svg" alt="">
+                    </div>
+                </div>
+                <div class="submit">
+                    <a href="#">Применить</a>
+                </div>
+                <div class="reset">
+                    <img src="images/pages/catalog/close-button-reset.svg" alt="">
+                    <p>Сбросить</p>
+                </div>
+            </div>
+            <div class="products">
+                @@include('components/products.html')
+            </div>
+            <div class="more">
+                <a href="#">Загрузить еще</a>
+            </div>
+        </section>
+         <section class="clearnut-section">
+            <div class="container">
+                <div class="info">
+                    <h2>Экологически чистый <br>
+                        грецкий орех</h2>
+                    <h3>Оптом, и в розницу</h3>
+                    <div class="descr">
+                        <div class="text">
+                            <p>Сельскохозяйственный обслуживающий кооператив <br>
+                                “Орех Причерноморья” выращивает смешанные сады <br>
+                                ореха грецкого с фундуком, а также ореха грецкого <br>
+                                с шиповником, на площади более 150 гектаров. </p>
+                            <p>Помимо этого кооператив занимается выращиванием <br>
+                                посадочного материала, саженцов привитого и непривитого <br>
+                                грецкого ореха, фундука и шиповника.</p>
+                            <p>Орех Причерноморья – это первый и единственный в Украине <br>
+                                сад по совместному выращиванию фундука и грецкого ореха</p>
+                        </div>
+                        <div class="line">
+                            <img src="images/pages/catalog/line-scroll.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-block">
+                    @@include('components/mini-slider.html',{
+                        "imageSlider" : "../images/pages/catalog/clearnut-img.svg",
+                        })
+                </div>
+            </div>
+        </section>
+    </main>
+    <div class="footer-catalog">
+        @@include('layouts/footer/_footer.html')
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="js/script.min.js"></script>
+</body>
+
+</html>

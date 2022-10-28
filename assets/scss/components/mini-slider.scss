@@ -1,0 +1,83 @@
+.mini-slider {
+    .slider {
+        width: 700px;
+        position: relative;
+
+        @media(max-width:1150px) {
+            margin: 20px auto 0px;
+        }
+
+        @media(max-width:768px) {
+            width: 90%;
+        }
+
+        .about-swiper {
+            position: relative;
+
+            .nav-block {
+                position: absolute;
+                width: 141px;
+                height: 58px;
+                background: $dark-green;
+                bottom: 3px;
+                z-index: 1;
+
+                @media(max-width:768px) {
+                    display: none;
+                }
+            }
+
+            .swiper-slide {
+                position: relative;
+
+
+                img {
+                    object-fit: none;
+                    width: 100%;
+
+                    @media(max-width:768px) {
+                        width: 100%;
+                    }
+                }
+            }
+
+            .swiper-button-prev::after {
+                z-index: 1001;
+                content: "";
+                position: absolute;
+                width: 34px;
+                height: 34px;
+                bottom: -202px;
+                left: 11px;
+                background-image: url('../../images/pages/home/white-arrow.svg');
+                transform: rotate(180deg);
+
+                @media(max-width:768px) {
+                    bottom: 0px;
+                    background-color: $dark-green;
+                    height: 36px;
+                    width: 36px;
+                }
+            }
+
+            .swiper-button-next::after {
+                z-index: 1001;
+                content: "";
+                position: absolute;
+                width: 34px;
+                height: 34px;
+                bottom: -200px;
+                right: 568px;
+                background-image: url('../../images/pages/home/white-arrow.svg');
+
+                @media(max-width:768px) {
+                    right: 11px;
+                    bottom: 0px;
+                    background-color: $dark-green;
+                    height: 36px;
+                    width: 36px;
+                }
+            }
+        }
+    }
+}
