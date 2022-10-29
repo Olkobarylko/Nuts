@@ -273,16 +273,18 @@
             }
 
             li {
-                font-family: 'Raleway';
-                font-weight: 500;
-                font-size: 15px;
-                line-height: 18px;
-                letter-spacing: 0.02em;
-                color: $dark-blue;
+                a {
+                    font-family: 'Raleway';
+                    font-weight: 500;
+                    font-size: 15px;
+                    line-height: 18px;
+                    letter-spacing: 0.02em;
+                    color: $dark-blue;
 
-                @media(max-width:1000px) {
-                    font-size: 13px;
-                    line-height: 15px;
+                    @media(max-width:1000px) {
+                        font-size: 13px;
+                        line-height: 15px;
+                    }
                 }
             }
 
@@ -350,6 +352,7 @@
                     width: 100%;
                     border: none;
                     padding: 18px 20px;
+
                     a {
                         font-family: 'Raleway';
                         font-weight: 700;

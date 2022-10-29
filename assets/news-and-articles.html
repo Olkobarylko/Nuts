@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/main.min.css">
+    <title>Nuts</title>
+</head>
+
+<body>
+    @@include('layouts/header/_header.html')
+    <main class="news-articles-main">
+        <section class="front-block">
+            <div class="container">
+                <h1>Новости и статьи</h1>
+                <p>Свежие новости и полезная информация</p>
+                <div class="navigation">
+                    <p>Главная</p>
+                    <div><img src="images/pages/news-and-articles/right-arrow-front.svg" alt=""></div>
+                    <p>Новости и статьи</p>
+                </div>
+            </div>
+        </section>
+        <section class="blog-section">
+            <div class="main-block">
+                <img src="images/pages/news-and-articles/pic.png" alt="">
+                <div class="info">
+                    <span>12.04.2019</span>
+                    <h2>Центр поддержки экспорта, <br>
+                        в студии Павел Тулба</h2>
+                    <p>Сельскохозяйственный обслуживающий кооператив <br>
+                        “Орех Причерноморья” предлагает своим клиентам<br>
+                        выгодные условия сотрудничества.</p>
+                    <p>Ореховый бизнес – один из наиболее перспективных
+                        в Украине. Ежегодная нехватка продукта в Европе составляет 100 000 тонн. У Вас есть
+                        возможность
+                        зарабатывать десятки тысяч долларов в год всего<br>
+                        на нескольких гектарах земли.</p>
+                    <a href="#">Читать</a>
+                </div>
+            </div>
+            @@include('components/news.html')
+        </section>
+       <section class="project-section">
+            <h2>Проект UBHDP </h2>
+            <p>Вчера к нам приезжал американский агроном Рон , спасибо Мельнику <br> Евгению и проекту UBHDP за возможность
+                получить консультацию <br> от мировых специалистов!</p>
+        </section>
+        <section class="more-section">
+            <a href="#">Посмотреть еще</a>
+        </section>
+    </main>
+    <div class="footer-news-and-articles">
+        @@include('layouts/footer/_footer.html')
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="js/script.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+.news-component {
+    .slider {
+        margin-top: 58px;
+        padding: 0px 5px;
+
+        @media(max-width:768px) {
+            margin-top: 20px;
+        }
+
+        .news-swiper {
+            .swiper-slide {
+                width: 410px;
+                height: 532px;
+                background: #FFFFFF;
+                cursor: pointer;
+
+                img {
+                    width: 100%;
+                    object-fit: cover;
+                }
+
+                .info {
+                    padding: 19px 22px 19px;
+
+                    span {
+                        font-family: 'Montserrat';
+                        font-weight: 500;
+                        font-size: 13px;
+                        line-height: 22px;
+                        letter-spacing: 0.01em;
+                        color: $grey;
+                    }
+
+                    h3 {
+                        margin-top: 9px;
+                        font-family: "Raleway";
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 24px;
+                        letter-spacing: 0.01em;
+                        color: $dark-blue;
+                    }
+
+                    p {
+                        margin-top: 10px;
+                        font-family: 'Raleway';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 20px;
+                        letter-spacing: 0.01em;
+                        color: $dark-blue;
+                    }
+
+                    a {
+                        margin-top: 21px;
+                        display: block;
+                        font-family: 'Raleway';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 14px;
+                        line-height: 20px;
+                        letter-spacing: 0.01em;
+                        color: $dark-blue;
+                        position: relative;
+                        transition: all 0.25s ease-in-out;
+
+                        &:hover {
+                            color: $dark-green;
+                        }
+
+                        &::after {
+                            content: "";
+                            position: absolute;
+                            width: 18px;
+                            height: 9px;
+                            top: 6px;
+                            left: 56px;
+                            background-image: url('../../images/pages/home/news-arrow-black.svg');
+                            transition: all 0.25s ease-in-out;
+                        }
+
+                        &:hover::after {
+                            background-image: url('../../images/pages/home/news-arrow-green.svg');
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
