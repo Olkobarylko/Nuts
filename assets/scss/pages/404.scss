@@ -1,0 +1,55 @@
+.main-404-page {
+    padding-right: 3px;
+    padding-top: 110px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    @media(max-width:768px) {
+        padding: 30px 10px 0px;
+    }
+
+    img {
+        @media(max-width:768px) {
+            width: 100%;
+        }
+    }
+
+    h2 {
+        padding-left: 6px;
+        margin-top: 32px;
+        font-family: "Raleway";
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: .014em;
+        color: $dark-blue;
+    }
+
+    a {
+        margin-top: 17px;
+        margin-left: 5px;
+        display: block;
+        width: 332px;
+        height: 50px;
+        border: 1.5px solid $dark-green;
+        text-align: center;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 17px;
+        color: $dark-green;
+        display: flex;
+        padding-top: 16px;
+        justify-content: center;
+        gap: 12px;
+    }
+}
+
+.footer-404 {
+    .contacts {
+        padding-top: 210px;
+    }
+}

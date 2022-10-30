@@ -2276,6 +2276,103 @@ body {
   padding-top: 203px;
 }
 
+.main-404-page {
+  padding-right: 3px;
+  padding-top: 110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main-404-page h2 {
+  padding-left: 6px;
+  margin-top: 32px;
+  font-family: "Raleway";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.014em;
+  color: #1A2F3F;
+}
+
+.main-404-page a {
+  margin-top: 17px;
+  margin-left: 5px;
+  display: block;
+  width: 332px;
+  height: 50px;
+  border: 1.5px solid #337D5A;
+  text-align: center;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 17px;
+  color: #337D5A;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 16px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 12px;
+}
+
+.footer-404 .contacts {
+  padding-top: 210px;
+}
+
+.order-done-page .front-block {
+  width: 100%;
+  height: 518px;
+  background-image: url("../../images/pages/order-done/order-done-bg.svg");
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 38px;
+}
+
+.order-done-page .front-block h2 {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+}
+
+.order-done-page .front-block p {
+  margin-top: 30px;
+  font-family: "Raleway";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+}
+
 .products-catalog .wrapper {
   max-width: 1290px;
   width: 100%;
@@ -3590,6 +3687,30 @@ body {
     height: 40px;
     font-size: 14px;
     line-height: 39px;
+  }
+
+  .main-404-page {
+    padding: 30px 10px 0px;
+  }
+
+  .main-404-page img {
+    width: 100%;
+  }
+
+  .order-done-page .front-block {
+    height: 400px;
+  }
+
+  .order-done-page .front-block h2 {
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+  }
+
+  .order-done-page .front-block p {
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 28px;
   }
 
   .products-catalog .wrapper {
