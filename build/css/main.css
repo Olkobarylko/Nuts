@@ -2373,6 +2373,120 @@ body {
   color: #FFFFFF;
 }
 
+.sign-in-page .login {
+  padding-top: 109px;
+  max-width: 1290px;
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+.sign-in-page .login .navigation {
+  position: absolute;
+  top: 35px;
+  left: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+
+.sign-in-page .login .navigation p {
+  font-family: "Raleway";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #8A8A8A;
+}
+
+.sign-in-page .login .navigation div {
+  margin-top: 3px;
+}
+
+.sign-in-page .login h2 {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+  color: #1A2F3F;
+  margin-bottom: 26px;
+}
+
+.sign-in-page .login input {
+  margin-top: 15px;
+  width: 410px;
+  height: 47px;
+  border: 0.5px solid rgba(0, 0, 0, 0.15);
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1A2F3F;
+  padding: 4px 0px 0px 11px;
+}
+
+.sign-in-page .login h3 {
+  margin-top: 8px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+  color: #337D5A;
+}
+
+.sign-in-page .login a {
+  margin-top: 8px;
+  display: block;
+  width: 410px;
+  height: 50px;
+  background: #337D5A;
+  text-align: center;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 50px;
+  color: #FFFFFF;
+}
+
+.sign-in-page .login h4 {
+  margin-top: 9px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  color: #337D5A;
+  position: relative;
+}
+
+.sign-in-page .login h4::after {
+  position: absolute;
+  content: "";
+  top: 26px;
+  left: 0px;
+  width: 100%;
+  height: 1px;
+  background-color: #337D5A;
+}
+
+.sign-in-footer .contacts {
+  padding-top: 201px;
+}
+
 .products-catalog .wrapper {
   max-width: 1290px;
   width: 100%;
@@ -2980,6 +3094,14 @@ body {
             justify-content: flex-start;
     background-position: center;
     padding-bottom: 0px;
+  }
+
+  .sign-in-page {
+    padding: 0px 10px;
+  }
+
+  .sign-in-page .login {
+    padding-top: 70px;
   }
 
   .products-catalog .wrapper {
@@ -3711,6 +3833,20 @@ body {
     margin-top: 10px;
     font-size: 20px;
     line-height: 28px;
+  }
+
+  .sign-in-page .login h2 {
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+  }
+
+  .sign-in-page .login input {
+    width: 96%;
+  }
+
+  .sign-in-page .login a {
+    width: 96%;
   }
 
   .products-catalog .wrapper {
