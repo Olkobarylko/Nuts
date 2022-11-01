@@ -1,0 +1,320 @@
+.payment-and-delivery-page {
+    .front-section {
+        width: 100%;
+        height: 300px;
+        background-image: url("../../images/pages/payment-and-delivery/payment-and-delivery-front-bg.svg");
+
+        @media(max-width:1350px) {
+            padding: 0 10px;
+        }
+
+        @media(max-width:768px) {
+            height: 200px;
+        }
+
+        .container {
+            padding-top: 8px;
+            margin: 0 auto;
+            max-width: 1290px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            position: relative;
+
+            h2 {
+                font-family: 'Raleway';
+                font-weight: 800;
+                font-size: 62px;
+                line-height: 73px;
+                letter-spacing: 0.02em;
+                color: #FFFFFF;
+
+                @media(max-width:768px) {
+                    font-size: 28px;
+                    line-height: 35px;
+                }
+            }
+
+            .navigation {
+                position: absolute;
+                top: 35px;
+                left: 0px;
+                display: flex;
+                gap: 10px;
+
+                p {
+                    font-family: 'Raleway';
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 16px;
+                    letter-spacing: 0.02em;
+                    color: white;
+                }
+
+                div {
+                    margin-top: 1px;
+                }
+            }
+        }
+    }
+
+    .payment-info-section {
+        padding-top: 83px;
+
+        @media(max-width:1350px) {
+            padding: 40px 10px 0px;
+        }
+
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1057px;
+            padding-right: 4px;
+            width: 100%;
+            margin: 0 auto;
+
+            @media(max-width:768px) {
+                flex-direction: column;
+                gap: 30px;
+            }
+
+            .block {
+                display: flex;
+                align-items: center;
+                gap: 15px;
+
+                p {
+                    font-family: 'Raleway';
+                    font-weight: 800;
+                    font-size: 20px;
+                    line-height: 23px;
+                    letter-spacing: 0.01em;
+                    color: $dark-blue;
+                }
+            }
+
+            .active {
+                margin-right: 25px;
+                position: relative;
+
+                @media(max-width:768px) {
+                    margin-right: 0px;
+                }
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    top: 49px;
+                    left: -6px;
+                    width: 205px;
+                    height: 2px;
+                    background-color: $dark-green;
+                }
+            }
+        }
+
+        .line {
+            margin-top: 10px;
+            width: 100%;
+            height: 1px;
+            background-color: rgba(0, 0, 0, 0.08);
+
+            @media(max-width:768px) {
+                margin-top: 20px;
+            }
+        }
+
+        .info {
+            display: flex;
+            justify-content: space-between;
+            margin: 53px auto 0px;
+            max-width: 1290px;
+            width: 100%;
+
+            @media(max-width:1250px) {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            @media(max-width:768px) {
+                margin: 20px auto 0px;
+            }
+
+            .text {
+                h3 {
+                    margin-top: 8px;
+                    font-family: 'Raleway';
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 18px;
+                    line-height: 24px;
+                    color: $dark-blue;
+                    letter-spacing: 0.1px;
+                }
+            }
+
+            .img {
+                @media(max-width:1250px) {
+                    margin-top: 30px;
+                }
+
+                img {
+                    @media(max-width:1250px) {
+                        width: 100%;
+                    }
+                }
+
+            }
+
+            &__block {
+
+                .descr {
+                    display: flex;
+
+                    h4 {
+                        margin: 13px 0px 0px 14px;
+                        font-family: 'Raleway';
+                        font-style: italic;
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 24px;
+                        color: $dark-blue;
+                        letter-spacing: 1.25px;
+                    }
+                }
+
+                p {
+                    margin-left: 2px;
+                    margin-top: 7px;
+                    font-family: 'Raleway';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: $dark-blue;
+
+
+                    br {
+                        @media(max-width:1250px) {
+                            display: none;
+                        }
+                    }
+
+                }
+
+                // p:nth-child(1) {
+                //     margin-top: 7px;
+                // }
+
+                // p:nth-child(2) {
+                //     margin-top: 7px;
+                // }
+
+                // p:nth-child(3) {
+                //     margin-top: 7px;
+                // }
+            }
+
+            &__block:nth-child(2) {
+                margin-top: 23px;
+            }
+
+            &__block:nth-child(3) {
+                margin-top: 37px;
+            }
+
+            &__block:nth-child(4) {
+                margin-top: 36px;
+            }
+        }
+    }
+
+    .statistics-section {
+        padding-right: 3px;
+        padding-top: 72px;
+        margin-top: 71px;
+        height: 292px;
+        background: #FBFBFB;
+
+
+        @media(max-width:1350px) {
+            padding: 40px 10px;
+            margin-top: 20px;
+        }
+
+        @media(max-width:500px) {
+            padding: 30px 10px;
+            margin-top: 00px;
+        }
+    }
+
+    .aim-section {
+        padding-top: 242px;
+        height: 740px;
+        width: 100%;
+        background-image: url("../../images/pages/payment-and-delivery/aim-bg.svg");
+        padding-right: 13px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        @media(max-width:768px) {
+            padding: 50px 10px;
+            height: 400px;
+            background-position: center;
+            justify-content: center;
+        }
+
+        h2 {
+            font-family: 'Raleway';
+            font-weight: 800;
+            font-size: 45px;
+            line-height: 53px;
+            text-align: center;
+            letter-spacing: 0.02em;
+            color: #FFFFFF;
+
+            @media(max-width:768px) {
+                font-size: 28px;
+                line-height: 35px;
+            }
+
+            br {
+                @media(max-width:500px) {
+                    display: none;
+                }
+            }
+        }
+
+        div {
+            margin-top: 70px;
+            margin-right: 7px;
+
+            @media(max-width:768px) {
+                margin-top: 30px;
+                margin-right: 0px;
+            }
+        }
+
+        p {
+            margin-top: 23px;
+            font-family: 'Raleway';
+            font-style: italic;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 28px;
+            letter-spacing: 2px;
+            padding-right: 5px;
+            color: #FFFFFF;
+
+            @media(max-width:768px) {
+                font-size: 20px;
+                line-height: 22px;
+                text-align: center;
+            }
+        }
+    }
+}

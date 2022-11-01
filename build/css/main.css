@@ -46,6 +46,14 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Raleway";
+  font-display: swap;
+  src: url("../fonts/Raleway-SemiBoldItalic.woff") format("woff"), url("../fonts/Raleway-SemiBoldItalic.woff2") format("woff2");
+  font-weight: 600;
+  font-style: italic;
+}
+
 html,
 body,
 div,
@@ -2487,6 +2495,322 @@ body {
   padding-top: 201px;
 }
 
+.passsword-page .login {
+  padding-top: 109px;
+  max-width: 1290px;
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+.passsword-page .login .navigation {
+  position: absolute;
+  top: 35px;
+  left: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+
+.passsword-page .login .navigation p {
+  font-family: "Raleway";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #8A8A8A;
+}
+
+.passsword-page .login .navigation div {
+  margin-top: 3px;
+}
+
+.passsword-page .login h2 {
+  padding-left: 5px;
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+  color: #1A2F3F;
+  margin-bottom: 26px;
+}
+
+.passsword-page .login input {
+  margin-top: 15px;
+  width: 410px;
+  height: 47px;
+  border: 0.5px solid rgba(0, 0, 0, 0.15);
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1A2F3F;
+  padding: 4px 0px 0px 11px;
+}
+
+.passsword-page .login a {
+  margin-top: 16px;
+  display: block;
+  width: 410px;
+  height: 50px;
+  background: #337D5A;
+  text-align: center;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 52px;
+  color: #FFFFFF;
+}
+
+.passsword-footer .contacts {
+  padding-top: 212px;
+}
+
+.payment-and-delivery-page .front-section {
+  width: 100%;
+  height: 300px;
+  background-image: url("../../images/pages/payment-and-delivery/payment-and-delivery-front-bg.svg");
+}
+
+.payment-and-delivery-page .front-section .container {
+  padding-top: 8px;
+  margin: 0 auto;
+  max-width: 1290px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  position: relative;
+}
+
+.payment-and-delivery-page .front-section .container h2 {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 73px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+}
+
+.payment-and-delivery-page .front-section .container .navigation {
+  position: absolute;
+  top: 35px;
+  left: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+
+.payment-and-delivery-page .front-section .container .navigation p {
+  font-family: "Raleway";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: white;
+}
+
+.payment-and-delivery-page .front-section .container .navigation div {
+  margin-top: 1px;
+}
+
+.payment-and-delivery-page .payment-info-section {
+  padding-top: 83px;
+}
+
+.payment-and-delivery-page .payment-info-section .navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1057px;
+  padding-right: 4px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.payment-and-delivery-page .payment-info-section .navigation .block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+}
+
+.payment-and-delivery-page .payment-info-section .navigation .block p {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.01em;
+  color: #1A2F3F;
+}
+
+.payment-and-delivery-page .payment-info-section .navigation .active {
+  margin-right: 25px;
+  position: relative;
+}
+
+.payment-and-delivery-page .payment-info-section .navigation .active::after {
+  content: "";
+  position: absolute;
+  top: 49px;
+  left: -6px;
+  width: 205px;
+  height: 2px;
+  background-color: #337D5A;
+}
+
+.payment-and-delivery-page .payment-info-section .line {
+  margin-top: 10px;
+  width: 100%;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.08);
+}
+
+.payment-and-delivery-page .payment-info-section .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 53px auto 0px;
+  max-width: 1290px;
+  width: 100%;
+}
+
+.payment-and-delivery-page .payment-info-section .info .text h3 {
+  margin-top: 8px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  color: #1A2F3F;
+  letter-spacing: 0.1px;
+}
+
+.payment-and-delivery-page .payment-info-section .info__block .descr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.payment-and-delivery-page .payment-info-section .info__block .descr h4 {
+  margin: 13px 0px 0px 14px;
+  font-family: "Raleway";
+  font-style: italic;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1A2F3F;
+  letter-spacing: 1.25px;
+}
+
+.payment-and-delivery-page .payment-info-section .info__block p {
+  margin-left: 2px;
+  margin-top: 7px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1A2F3F;
+}
+
+.payment-and-delivery-page .payment-info-section .info__block:nth-child(2) {
+  margin-top: 23px;
+}
+
+.payment-and-delivery-page .payment-info-section .info__block:nth-child(3) {
+  margin-top: 37px;
+}
+
+.payment-and-delivery-page .payment-info-section .info__block:nth-child(4) {
+  margin-top: 36px;
+}
+
+.payment-and-delivery-page .statistics-section {
+  padding-right: 3px;
+  padding-top: 72px;
+  margin-top: 71px;
+  height: 292px;
+  background: #FBFBFB;
+}
+
+.payment-and-delivery-page .aim-section {
+  padding-top: 242px;
+  height: 740px;
+  width: 100%;
+  background-image: url("../../images/pages/payment-and-delivery/aim-bg.svg");
+  padding-right: 13px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.payment-and-delivery-page .aim-section h2 {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 53px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+}
+
+.payment-and-delivery-page .aim-section div {
+  margin-top: 70px;
+  margin-right: 7px;
+}
+
+.payment-and-delivery-page .aim-section p {
+  margin-top: 23px;
+  font-family: "Raleway";
+  font-style: italic;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 2px;
+  padding-right: 5px;
+  color: #FFFFFF;
+}
+
 .products-catalog .wrapper {
   max-width: 1290px;
   width: 100%;
@@ -2920,6 +3244,78 @@ body {
   background-image: url("../../images/pages/home/news-arrow-green.svg");
 }
 
+.statistics-component {
+  margin: 0 auto;
+  max-width: 1130px;
+  width: 100%;
+  height: 222px;
+}
+
+.statistics-component .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.statistics-component .wrapper .block .number {
+  text-align: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 88px;
+  letter-spacing: 0.01em;
+  color: #1A2F3F;
+  position: relative;
+}
+
+.statistics-component .wrapper .block .number span {
+  position: absolute;
+  top: 15px;
+  right: -27px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 3px;
+}
+
+.statistics-component .wrapper .block p {
+  margin-top: 5px;
+  text-align: center;
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  color: #1A2F3F;
+}
+
+.statistics-component .wrapper .block:nth-child(2) {
+  margin-left: 204px;
+}
+
+.statistics-component .wrapper .block:nth-child(2) .number span {
+  right: 11px;
+}
+
+.statistics-component .wrapper .block:nth-child(3) {
+  margin-left: 128px;
+}
+
+.statistics-component .wrapper .block:nth-child(3) .number span {
+  right: 86px;
+}
+
+.statistics-component .wrapper .block:nth-child(4) {
+  margin-left: 102px;
+}
+
+.statistics-component .wrapper .block:nth-child(4) .number span {
+  right: 0px;
+}
+
 @media (max-width: 1350px) {
   .footer .contacts {
     padding: 80px 10px;
@@ -3104,6 +3500,27 @@ body {
     padding-top: 70px;
   }
 
+  .passsword-page {
+    padding: 0px 10px;
+  }
+
+  .passsword-page .login {
+    padding-top: 70px;
+  }
+
+  .payment-and-delivery-page .front-section {
+    padding: 0 10px;
+  }
+
+  .payment-and-delivery-page .payment-info-section {
+    padding: 40px 10px 0px;
+  }
+
+  .payment-and-delivery-page .statistics-section {
+    padding: 40px 10px;
+    margin-top: 20px;
+  }
+
   .products-catalog .wrapper {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -3113,6 +3530,30 @@ body {
   .products-catalog .wrapper .block {
     width: 320px;
     height: 534px;
+  }
+}
+
+@media (max-width: 1250px) {
+  .payment-and-delivery-page .payment-info-section .info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .payment-and-delivery-page .payment-info-section .info .img {
+    margin-top: 30px;
+  }
+
+  .payment-and-delivery-page .payment-info-section .info .img img {
+    width: 100%;
+  }
+
+  .payment-and-delivery-page .payment-info-section .info__block p br {
+    display: none;
   }
 }
 
@@ -3199,6 +3640,25 @@ body {
 
   .mini-slider .slider {
     margin: 20px auto 0px;
+  }
+
+  .statistics-component .wrapper {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 0 10px;
+  }
+
+  .statistics-component .wrapper .block:nth-child(2) {
+    margin-left: 0px;
+  }
+
+  .statistics-component .wrapper .block:nth-child(3) {
+    margin-left: 0px;
+  }
+
+  .statistics-component .wrapper .block:nth-child(4) {
+    margin-left: 0px;
   }
 }
 
@@ -3849,6 +4309,74 @@ body {
     width: 96%;
   }
 
+  .passsword-page .login h2 {
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+  }
+
+  .passsword-page .login input {
+    width: 96%;
+  }
+
+  .passsword-page .login a {
+    width: 96%;
+  }
+
+  .payment-and-delivery-page .front-section {
+    height: 200px;
+  }
+
+  .payment-and-delivery-page .front-section .container h2 {
+    font-size: 28px;
+    line-height: 35px;
+  }
+
+  .payment-and-delivery-page .payment-info-section .navigation {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 30px;
+  }
+
+  .payment-and-delivery-page .payment-info-section .navigation .active {
+    margin-right: 0px;
+  }
+
+  .payment-and-delivery-page .payment-info-section .line {
+    margin-top: 20px;
+  }
+
+  .payment-and-delivery-page .payment-info-section .info {
+    margin: 20px auto 0px;
+  }
+
+  .payment-and-delivery-page .aim-section {
+    padding: 50px 10px;
+    height: 400px;
+    background-position: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .payment-and-delivery-page .aim-section h2 {
+    font-size: 28px;
+    line-height: 35px;
+  }
+
+  .payment-and-delivery-page .aim-section div {
+    margin-top: 30px;
+    margin-right: 0px;
+  }
+
+  .payment-and-delivery-page .aim-section p {
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+  }
+
   .products-catalog .wrapper {
     margin: 20px auto 35px;
     gap: 20px;
@@ -3975,6 +4503,56 @@ body {
   .news-component .slider {
     margin-top: 20px;
   }
+
+  .statistics-component {
+    height: 210px;
+  }
+
+  .statistics-component .wrapper {
+    margin: 20px auto 0px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 500px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .statistics-component .wrapper .block {
+    width: 170px;
+  }
+
+  .statistics-component .wrapper .block .number {
+    font-size: 36px;
+    line-height: 50px;
+  }
+
+  .statistics-component .wrapper .block .number span {
+    right: 20px;
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .statistics-component .wrapper .block p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .statistics-component .wrapper .block p br {
+    display: none;
+  }
+
+  .statistics-component .wrapper .block:nth-child(2) .number span {
+    right: 50px;
+  }
+
+  .statistics-component .wrapper .block:nth-child(3) .number span {
+    right: 40px;
+  }
+
+  .statistics-component .wrapper .block:nth-child(4) .number span {
+    right: 40px;
+  }
 }
 
 @media (max-width: 600px) {
@@ -4014,5 +4592,24 @@ body {
 
   .home .statistics-section .wrapper .block {
     width: 165px;
+  }
+
+  .statistics-component .wrapper {
+    width: 350px;
+  }
+
+  .statistics-component .wrapper .block {
+    width: 165px;
+  }
+}
+
+@media (max-width: 500px) {
+  .payment-and-delivery-page .statistics-section {
+    padding: 30px 10px;
+    margin-top: 0px;
+  }
+
+  .payment-and-delivery-page .aim-section h2 br {
+    display: none;
   }
 }
