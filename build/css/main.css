@@ -2811,6 +2811,278 @@ body {
   color: #FFFFFF;
 }
 
+.for-clients-page .front-section {
+  height: 600px;
+  width: 100%;
+  background-image: url("../../images/pages/for-clients/front-block-bg.svg");
+  padding-top: 45px;
+}
+
+.for-clients-page .front-section .container {
+  max-width: 1290px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.for-clients-page .front-section .container .navigation {
+  position: absolute;
+  top: -9px;
+  left: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Raleway";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  gap: 10px;
+}
+
+.for-clients-page .front-section .container .navigation div {
+  margin: 1px 0px 0px 0px;
+}
+
+.for-clients-page .front-section .container h1 {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 73px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.for-clients-page .front-section .container h3 {
+  margin-top: 35px;
+  font-family: "Raleway";
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 29px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+}
+
+.for-clients-page .under-front-section {
+  max-width: 1290px;
+  padding-top: 81px;
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.for-clients-page .under-front-section h2 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 53px;
+  letter-spacing: 0.02em;
+  color: #1A2F3F;
+}
+
+.for-clients-page .under-front-section div p {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1A2F3F;
+  margin-bottom: 24px;
+}
+
+.for-clients-page .under-front-section div p span {
+  font-weight: 800;
+}
+
+.for-clients-page .under-front-section div:nth-child(2) {
+  margin: 12px 0px 0px 115px;
+}
+
+.for-clients-page .under-front-section div:nth-child(3) {
+  margin: 12px 0px 0px 83px;
+}
+
+.for-clients-page .navigation-section {
+  margin-top: 107px;
+}
+
+.for-clients-page .navigation-section .container {
+  max-width: 1310px;
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.for-clients-page .navigation-section .container .block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 17px;
+}
+
+.for-clients-page .navigation-section .container .block p {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.02em;
+  color: #1A2F3F;
+}
+
+.for-clients-page .navigation-section .container .block:nth-child(1) {
+  position: relative;
+}
+
+.for-clients-page .navigation-section .container .block:nth-child(1)::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 64px;
+  width: 100%;
+  height: 2px;
+  background-color: #337D5A;
+}
+
+.for-clients-page .navigation-section .container .block:nth-child(2) {
+  margin-left: 76px;
+}
+
+.for-clients-page .navigation-section .container .block:nth-child(3) {
+  margin-left: 90px;
+}
+
+.for-clients-page .navigation-section .container .block:nth-child(4) {
+  margin-left: 97px;
+}
+
+.for-clients-page .navigation-section .container .block:nth-child(5) {
+  margin-left: 76px;
+}
+
+.for-clients-page .line-section {
+  width: 100%;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.08);
+  margin-top: 14px;
+}
+
+.for-clients-page .info-section {
+  max-width: 1290px;
+  width: 100%;
+  margin: 37px auto 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.for-clients-page .info-section .info {
+  margin-top: 48px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1A2F3F;
+}
+
+.for-clients-page .info-section .info p {
+  margin-bottom: 24px;
+}
+
+.for-clients-page .info-section .info a {
+  margin-top: 40px;
+  text-align: center;
+  display: block;
+  background: #337D5A;
+  width: 188px;
+  height: 52px;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 51px;
+  letter-spacing: 0.02em;
+  padding-right: 2px;
+  color: #FFFFFF;
+}
+
+.for-clients-page .statistics-section {
+  margin-top: 89px;
+  width: 100%;
+  height: 292px;
+  background-color: #FBFBFB;
+  padding-top: 71px;
+  padding-right: 4px;
+}
+
+.for-clients-page .eco-section {
+  height: 740px;
+  width: 100%;
+  background-image: url("../../images/pages/for-clients/eco-bg.svg");
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 231px;
+}
+
+.for-clients-page .eco-section h2 {
+  margin-top: 19px;
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 53px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  padding-right: 20px;
+}
+
+.for-clients-page .eco-section p {
+  margin-top: 25px;
+  font-family: "Raleway";
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 31px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #fff;
+  padding-left: 10px;
+}
+
 .products-catalog .wrapper {
   max-width: 1290px;
   width: 100%;
@@ -3521,6 +3793,81 @@ body {
     margin-top: 20px;
   }
 
+  .for-clients-page .front-section {
+    padding: 30px 10px 0px;
+    background-position: center;
+  }
+
+  .for-clients-page .under-front-section {
+    padding: 30px 10px 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .for-clients-page .under-front-section h2 {
+    text-align: center;
+    font-size: 28px;
+    line-height: 35px;
+  }
+
+  .for-clients-page .under-front-section h2 br {
+    display: none;
+  }
+
+  .for-clients-page .under-front-section div p {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  .for-clients-page .under-front-section div p br {
+    display: none;
+  }
+
+  .for-clients-page .under-front-section div:nth-child(2) {
+    margin: 12px 0px 0px 0px;
+  }
+
+  .for-clients-page .under-front-section div:nth-child(3) {
+    margin: 12px 0px 0px 0px;
+  }
+
+  .for-clients-page .navigation-section {
+    margin-top: 30px;
+  }
+
+  .for-clients-page .navigation-section .container {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+
+  .for-clients-page .navigation-section .container .block:nth-child(2) {
+    margin-left: 0px;
+  }
+
+  .for-clients-page .navigation-section .container .block:nth-child(3) {
+    margin-left: 0px;
+  }
+
+  .for-clients-page .navigation-section .container .block:nth-child(4) {
+    margin-left: 0px;
+  }
+
+  .for-clients-page .navigation-section .container .block:nth-child(5) {
+    margin-left: 0px;
+  }
+
+  .for-clients-page .info-section {
+    padding: 0 10px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
   .products-catalog .wrapper {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -3636,6 +3983,46 @@ body {
   .home .benefit-section .wrapper {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+  }
+
+  .for-clients-page .navigation-section .container {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    max-width: 600px;
+    gap: 50px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+  .for-clients-page .info-section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .for-clients-page .info-section .info {
+    margin: 0px;
+  }
+
+  .for-clients-page .info-section .info p {
+    margin-bottom: 15px;
+  }
+
+  .for-clients-page .info-section .info p br {
+    display: none;
+  }
+
+  .for-clients-page .info-section .info a {
+    margin-bottom: 15px;
+  }
+
+  .for-clients-page .info-section .img img {
+    width: 100%;
   }
 
   .mini-slider .slider {
@@ -4377,6 +4764,42 @@ body {
     text-align: center;
   }
 
+  .for-clients-page .front-section {
+    height: 400px;
+  }
+
+  .for-clients-page .front-section .container h1 {
+    font-size: 28px;
+    line-height: 35px;
+  }
+
+  .for-clients-page .front-section .container h3 {
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .for-clients-page .front-section .container h3 br {
+    display: none;
+  }
+
+  .for-clients-page .info-section .info a {
+    margin-top: 15px;
+  }
+
+  .for-clients-page .statistics-section {
+    margin-top: 20px;
+    padding-top: 30px;
+  }
+
+  .for-clients-page .eco-section {
+    padding: 0px 10px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 500px;
+  }
+
   .products-catalog .wrapper {
     margin: 20px auto 35px;
     gap: 20px;
@@ -4611,5 +5034,27 @@ body {
 
   .payment-and-delivery-page .aim-section h2 br {
     display: none;
+  }
+
+  .for-clients-page .navigation-section .container {
+    gap: 10px 30px;
+  }
+
+  .for-clients-page .navigation-section .container .block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 130px;
+  }
+
+  .for-clients-page .navigation-section .container .block p {
+    text-align: center;
+    font-size: 17px;
+    line-height: 20px;
+  }
+
+  .for-clients-page .navigation-section .container .block:nth-child(1)::after {
+    top: 100px;
   }
 }

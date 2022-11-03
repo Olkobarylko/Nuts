@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/main.min.css">
+    <title>Nuts</title>
+</head>
+
+<body>
+    @@include('layouts/header/_header.html')
+    <main class="for-clients-page">
+        <section class="front-section">
+            <div class="container">
+                <div class="navigation">
+                    <p>Главная</p>
+                    <div><img src="images/pages/payment-and-delivery/white-arrow.svg" alt=""></div>
+                    <p>Оптовым и корпоративным клиентам</p>
+                </div>
+                <h1>Орех Причерноморья</h1>
+                <h3>Единственный в Украине сад совместного <br>
+                    выращивание фундука и грецкого ореха</h3>
+        </section>
+         <section class="under-front-section">
+            <h2>Оптовым <br>и корпоративным <br>клиентам</h2>
+            <div>
+                <p>Сельскохозяйственный обслуживающий <br> кооператив
+                    “Орех Причерноморья” <br> предлагает своим клиентам выгодные <br>
+                    условия сотрудничества.</p>
+                <p>Особые условия подготовлены для<span> розничных<br> магазинов,
+                        компаний HoReCa, спорт - клубов.</span>
+                </p>
+            </div>
+            <div>
+                <p>Мы готовы рассмотреть особые условия<br> для оптовых покупателей, с готовностью <br>идем на встречу
+                    любому
+                    предложению.</p>
+                <p>Если вы заинтересованы в нашей<br> продукции, пишите, или звоните в наш<br> главный офис - мы всегда
+                    пойдем
+                    вам <br>на встречу!
+                </p>
+            </div>
+        </section>
+        <section class="navigation-section">
+            <div class="container">
+                <div class="block">
+                    <img src="images/pages/for-clients/supermarket.svg" alt="">
+                    <p>Крупные <br>супермаркеты</p>
+                </div>
+                <div class="block">
+                    <img src="images/pages/for-clients/shop.svg" alt="">
+                    <p>Розничные <br>магазины</p>
+                </div>
+                <div class="block">
+                    <img src="images/pages/for-clients/dinner-table.svg" alt="">
+                    <p>Компании <br>HoReCa</p>
+                </div>
+                <div class="block">
+                    <img src="images/pages/for-clients/dumbbell.svg" alt="">
+                    <p>Фитнес <br>и спорт клубы</p>
+                </div>
+                <div class="block">
+                    <img src="images/pages/for-clients/cake.svg" alt="">
+                    <p>Кондитерские <br> и пекарни</p>
+                </div>
+            </div>
+        </section>
+        <section class="line-section"></section>
+        <section class="info-section">
+            <div class="info">
+                <p>СОК "Орех Причерноморья" предлагает своим клиентам <br>
+                    выгодные условия сорудничества.</p>
+                <p>Мы готовы рассмотреть особые условия для оптовых <br>
+                    покупателей, с готовностью идем на встречу к любому<br>
+                    предложению.
+                </p>
+                <p>Особые условия подготовленны для розничных <br> магазинов.
+                    компаний HoReCa, спорт-клубов.
+                </p>
+                <p>Если вы заинтересованы в нашей продукции, пишите <br>
+                    или звоните в наш главный офис, мы всегда пойдем <br>
+                    вам на встречу.</p>
+                <a href="#">Написать нам</a>
+            </div>
+            <div class="img">
+                <img src="images/pages/for-clients/info-img.svg" alt="">
+            </div>
+        </section>
+        <section class="statistics-section">
+            @@include('components/statistics.html');
+        </section>
+        <section class="eco-section">
+            <img src="images/pages/for-clients/eco-block-bg.svg" alt="">
+            <h2>Эко продукция</h2>
+            <p>Выращиваем каждое деревцо с любовью, на экологически <br>
+                чистой земле, без использования пестицидов и химии</p>
+        </section>
+    </main>
+    <div class="for-clients-footer">@@include('layouts/footer/_footer.html')</div>
+    <script src="js/script.min.js"></script>
+</body>
+
+</html>
