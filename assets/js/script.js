@@ -75,3 +75,11 @@ var swiper2 = new Swiper(".news-swiper", {
         prevEl: ".swiper-button-prev-news",
     },
 });
+
+var swiper3 = new Swiper(".card-swiper", {
+    slidesPerView: 1,
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+});
