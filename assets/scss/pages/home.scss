@@ -463,6 +463,36 @@
                     }
                 }
             }
+
+            .sail {
+                position: relative;
+
+                &::after {
+                    position: absolute;
+                    z-index: 1000;
+                    content: "";
+                    top: 20px;
+                    left: -2px;
+                    width: 125px;
+                    height: 36.22px;
+                    background-image: url("../../images/pages/home/sail-icon.svg");
+                }
+            }
+
+            .new-product {
+                position: relative;
+
+                &::after {
+                    position: absolute;
+                    z-index: 1000;
+                    content: "";
+                    top: 20px;
+                    left: -2px;
+                    width: 117px;
+                    height: 36.22px;
+                    background-image: url("../../images/pages/home/new-droduct-icon.svg");
+                }
+            }
         }
 
         .more {
@@ -1031,7 +1061,7 @@
                 }
 
                 .container {
-                    padding-top: 45px;
+                    padding-top: 37px;
                     position: relative;
                     display: flex;
                     flex-direction: column;
@@ -1067,18 +1097,18 @@
                         height: 0px;
                         opacity: 0;
                         margin-top: 22px;
-                        padding: 0px 30px;
+                        padding: 0px 37px 0px 30px;
                         font-family: 'Raleway';
                         font-style: normal;
                         font-weight: 600;
                         font-size: 18px;
                         line-height: 23px;
                         text-align: center;
-                        letter-spacing: 0.02em;
+                        letter-spacing: 0.2px;
                         color: #FFFFFF;
 
                         @media(max-width:1350px) {
-                            font-size: 16px;
+                            font-size: 14px;
                             line-height: 20px;
                             padding: 0px 10px;
                             opacity: 1;
@@ -1086,8 +1116,9 @@
                         }
                     }
 
-                    p:nth-child(2) {
+                    p:nth-child(4) {
                         margin-top: 17px;
+                        line-height: 24.4px;
                     }
 
                     img {

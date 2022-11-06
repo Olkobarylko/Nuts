@@ -396,6 +396,12 @@
             letter-spacing: 0.02em;
             color: #FFFFFF;
             padding-right: 20px;
+
+            @media(max-width:768px) {
+                text-align: center;
+                font-size: 28px;
+                line-height: 35px;
+            }
         }
 
         p {
@@ -408,6 +414,19 @@
             letter-spacing: .01em;
             color: #fff;
             padding-left: 10px;
+
+            @media(max-width:768px) {
+                margin-top: 15px;
+                text-align: center;
+                font-size: 18px;
+                line-height: 26px;
+            }
+
+            br {
+                @media(max-width:768px) {
+                    display: none;
+                }
+            }
         }
     }
 }
